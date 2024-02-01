@@ -7,6 +7,12 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+/**
+ * 商品销售 DTO
+ *
+ * @author ZJHAO
+ * @date 2024/01/31
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

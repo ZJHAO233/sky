@@ -4,6 +4,12 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * 订单取消 DTO
+ *
+ * @author ZJHAO
+ * @date 2024/01/31
+ */
 @Data
 public class OrdersCancelDTO implements Serializable {
 

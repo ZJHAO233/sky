@@ -42,4 +42,19 @@ public interface EmployeeMapper {
      * @return {@link Page}<{@link Employee}>
      */
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    /**
+     * 根据主键动态修改属性
+     *
+     * @param employee 员工
+     */
+    void update(Employee employee);
+
+    /**
+     * 按 ID 查询员工信息
+     *
+     * @param id 编号
+     * @return {@link Employee}
+     */
+    Employee getById(Long id);
 }
